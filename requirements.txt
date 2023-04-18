@@ -1,0 +1,2 @@
+pytest==7.2.2
+sortedcontainers==2.4.0

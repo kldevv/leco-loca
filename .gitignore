@@ -1,0 +1,7 @@
+# MacOS
+.DS_Store
+
+# Python
+**/.pytest_cache
+**/__pycache__
+
