@@ -8,8 +8,6 @@ This is a command-line tool to help you keep track of the test cases and debug l
 
 It currently supports 3 most frequently encountered LeetCode pre-defined serializable classes: `TreeNode`, `ListNode`, and `Node`.
 
-serialize_tree_node
-
 ## 💡 Installation
 
 It requires `pytest` to run the test sets, and some commonly used data structure libraries for Python. If you haven't already installed them, run the following command in your terminal:
@@ -25,8 +23,6 @@ chomd +x copy_contents.sh
 chomd +x pytest_and_clean.sh
 ```
 
-serialize_tree_node
-
 ## 💡 Usage
 
 Create a standalone directory for each LeetCode problem with the following commnad:
@@ -39,13 +35,13 @@ Replace `$DIR_NAME` with the directory name you want to make; this will copy eve
 
 Modify `template/solution.py` to fit your needs. Make sure not to change the structure of the folder, and to include `test_solution.py` , `pytest.ini`, `expected.txt`, and `input.txt` especially, unless you're absolutely sure what you're doing.
 
-serialize_tree_node
+---
 
 Copy and paste the input and expected output from your LeetCode question straight to `$DIR_NAME/input.txt` and `$DIR_NAME/output.txt` respectively. See `examples/*/input.txt` and `examples/*/output.txt` for real-world examples.
 
 Yes, it is still done manually. I'll think of a better way to handle this.
 
-serialize_tree_node
+---
 
 Now the fun parts. There are 3 most commonly used rules to parse your submission (according to my experience). They are either ordered, unordered, or the problem itself is about designing a new class.
 
