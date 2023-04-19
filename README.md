@@ -43,6 +43,10 @@ Yes, it is still done manually. I'll think of a better way to handle this.
 
 ---
 
+Write your solution to `*/solution.py`, just as you would do in the LeetCode web-based editor. There is already a code snippet in the template, and you change it to whatever you like. Do not change the file name though.
+
+---
+
 Now the fun parts. There are 3 most commonly used rules to parse your submission (according to my experience). They are either ordered, unordered, or the problem itself is about designing a new class.
 
 ### 1. Ordered Output
